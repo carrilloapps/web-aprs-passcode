@@ -8,12 +8,12 @@
     "invalidCallsign": "إشارة نداء غير صالحة، حاول مرة أخرى!",
     "sourceCode": "الكود المصدري على",
     "github": "Github",
-    "required": "Required",
-    "generating": "Generating...",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "copiedToClipboard": "Copied",
-    "viewOnGithub": "View on GitHub"
+    "required": "مطلوب",
+    "generating": "جارٍ الإنشاء...",
+    "copy": "نسخ",
+    "copied": "تم النسخ!",
+    "copiedToClipboard": "تم النسخ إلى الحافظة",
+    "viewOnGithub": "عرض على GitHub"
   },
   "home": {
     "documentation": "التوثيق",

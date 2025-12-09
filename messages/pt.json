@@ -8,12 +8,12 @@
     "invalidCallsign": "Indicativo Inválido, Tente Novamente!",
     "sourceCode": "Código Fonte no",
     "github": "Github",
-    "required": "Required",
-    "generating": "Generating...",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "copiedToClipboard": "Copied",
-    "viewOnGithub": "View on GitHub"
+    "required": "Obrigatório",
+    "generating": "Gerando...",
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "copiedToClipboard": "Copiado para a área de transferência",
+    "viewOnGithub": "Ver no GitHub"
   },
   "home": {
     "documentation": "Documentação",

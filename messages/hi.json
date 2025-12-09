@@ -8,12 +8,12 @@
     "invalidCallsign": "अमान्य कॉलसाइन, फिर से प्रयास करें!",
     "sourceCode": "सोर्स कोड",
     "github": "Github",
-    "required": "Required",
-    "generating": "Generating...",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "copiedToClipboard": "Copied",
-    "viewOnGithub": "View on GitHub"
+    "required": "अनिवार्य",
+    "generating": "जेनरेट कर रहा है...",
+    "copy": "कॉपी",
+    "copied": "कॉपी किया गया!",
+    "copiedToClipboard": "क्लिपबोर्ड पर कॉपी किया गया",
+    "viewOnGithub": "GitHub पर देखें"
   },
   "home": {
     "documentation": "प्रलेखन",

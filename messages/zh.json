@@ -8,12 +8,12 @@
     "invalidCallsign": "无效的呼号，请重试！",
     "sourceCode": "源代码在",
     "github": "Github",
-    "required": "Required",
-    "generating": "Generating...",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "copiedToClipboard": "Copied",
-    "viewOnGithub": "View on GitHub"
+    "required": "必填",
+    "generating": "生成中...",
+    "copy": "复制",
+    "copied": "已复制！",
+    "copiedToClipboard": "已复制到剪贴板",
+    "viewOnGithub": "在 GitHub 上查看"
   },
   "home": {
     "documentation": "文档",

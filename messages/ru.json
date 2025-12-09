@@ -8,12 +8,12 @@
     "invalidCallsign": "Неверный позывной, попробуйте снова!",
     "sourceCode": "Исходный код на",
     "github": "Github",
-    "required": "Required",
-    "generating": "Generating...",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "copiedToClipboard": "Copied",
-    "viewOnGithub": "View on GitHub"
+    "required": "Обязательно",
+    "generating": "Генерация...",
+    "copy": "Копировать",
+    "copied": "Скопировано!",
+    "copiedToClipboard": "Скопировано в буфер обмена",
+    "viewOnGithub": "Посмотреть на GitHub"
   },
   "home": {
     "documentation": "Документация",

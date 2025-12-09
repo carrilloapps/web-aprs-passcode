@@ -8,12 +8,12 @@
     "invalidCallsign": "無効なコールサイン、もう一度お試しください！",
     "sourceCode": "ソースコードは",
     "github": "Github",
-    "required": "Required",
-    "generating": "Generating...",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "copiedToClipboard": "Copied",
-    "viewOnGithub": "View on GitHub"
+    "required": "必須",
+    "generating": "生成中...",
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "copiedToClipboard": "クリップボードにコピーしました",
+    "viewOnGithub": "GitHubで見る"
   },
   "home": {
     "documentation": "ドキュメント",
