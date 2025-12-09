@@ -1,0 +1,34 @@
+{
+  "app": {
+    "title": "مولد رمز مرور APRS",
+    "description": "أدخل إشارة النداء الخاصة بالراديو الهاوي للحصول على رمز مرور لشبكة APRS-IS.",
+    "callsignLabel": "إشارة النداء",
+    "generateButton": "احصل على رمز المرور!",
+    "passcodeLabel": "رمز المرور الخاص بك",
+    "invalidCallsign": "إشارة نداء غير صالحة، حاول مرة أخرى!",
+    "sourceCode": "الكود المصدري على",
+    "github": "Github"
+  },
+  "home": {
+    "documentation": "التوثيق",
+    "documentationDescription": "استكشف الأدلة الشاملة والموارد حول APRS",
+    "aprsGuide": "دليل APRS",
+    "aprsGuideDescription": "دليل كامل لـ APRS بما في ذلك الترددات حسب البلد",
+    "technicalSpecs": "المواصفات التقنية",
+    "technicalSpecsDescription": "مواصفات البروتوكول التفصيلية والتفاصيل التقنية",
+    "resources": "الموارد",
+    "resourcesDescription": "مجموعة منسقة من الأدوات والبرامج ومواد التعلم",
+    "faq": "الأسئلة الشائعة",
+    "faqDescription": "الأسئلة المتكررة واستكشاف الأخطاء وإصلاحها",
+    "basedOn": "مبني على",
+    "by": "بواسطة"
+  },
+  "docs": {
+    "navigation": "التوثيق",
+    "aprsGuide": "دليل APRS",
+    "technicalSpecs": "المواصفات التقنية",
+    "resources": "الموارد",
+    "faq": "الأسئلة الشائعة",
+    "backToGenerator": "← العودة إلى المولد"
+  }
+}

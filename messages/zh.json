@@ -1,0 +1,34 @@
+{
+  "app": {
+    "title": "APRS 密码生成器",
+    "description": "输入您的业余无线电呼号以获取 APRS-IS 网络的密码。",
+    "callsignLabel": "呼号",
+    "generateButton": "获取密码！",
+    "passcodeLabel": "您的密码",
+    "invalidCallsign": "无效的呼号，请重试！",
+    "sourceCode": "源代码在",
+    "github": "Github"
+  },
+  "home": {
+    "documentation": "文档",
+    "documentationDescription": "探索有关 APRS 的综合指南和资源",
+    "aprsGuide": "APRS 指南",
+    "aprsGuideDescription": "包括各国频率的完整 APRS 指南",
+    "technicalSpecs": "技术规范",
+    "technicalSpecsDescription": "详细的协议规范和技术细节",
+    "resources": "资源",
+    "resourcesDescription": "精选的工具、软件和学习材料集合",
+    "faq": "常见问题",
+    "faqDescription": "常见问题和故障排除",
+    "basedOn": "基于",
+    "by": "作者"
+  },
+  "docs": {
+    "navigation": "文档",
+    "aprsGuide": "APRS 指南",
+    "technicalSpecs": "技术规范",
+    "resources": "资源",
+    "faq": "常见问题",
+    "backToGenerator": "← 返回生成器"
+  }
+}

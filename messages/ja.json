@@ -1,0 +1,34 @@
+{
+  "app": {
+    "title": "APRSパスコードジェネレーター",
+    "description": "アマチュア無線のコールサインを入力して、APRS-ISネットワークのパスコードを取得します。",
+    "callsignLabel": "コールサイン",
+    "generateButton": "パスコードを取得！",
+    "passcodeLabel": "あなたのパスコード",
+    "invalidCallsign": "無効なコールサイン、もう一度お試しください！",
+    "sourceCode": "ソースコードは",
+    "github": "Github"
+  },
+  "home": {
+    "documentation": "ドキュメント",
+    "documentationDescription": "APRSに関する包括的なガイドとリソースを探索",
+    "aprsGuide": "APRSガイド",
+    "aprsGuideDescription": "国別の周波数を含む完全なAPRSガイド",
+    "technicalSpecs": "技術仕様",
+    "technicalSpecsDescription": "詳細なプロトコル仕様と技術的詳細",
+    "resources": "リソース",
+    "resourcesDescription": "ツール、ソフトウェア、学習教材の厳選コレクション",
+    "faq": "よくある質問",
+    "faqDescription": "よくある質問とトラブルシューティング",
+    "basedOn": "ベース",
+    "by": "作成者"
+  },
+  "docs": {
+    "navigation": "ドキュメント",
+    "aprsGuide": "APRSガイド",
+    "technicalSpecs": "技術仕様",
+    "resources": "リソース",
+    "faq": "よくある質問",
+    "backToGenerator": "← ジェネレーターに戻る"
+  }
+}

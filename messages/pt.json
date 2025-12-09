@@ -1,0 +1,34 @@
+{
+  "app": {
+    "title": "Gerador de Senha APRS",
+    "description": "Digite seu indicativo de radioamador para obter uma senha para a rede APRS-IS.",
+    "callsignLabel": "Indicativo",
+    "generateButton": "Obter Senha!",
+    "passcodeLabel": "Sua Senha",
+    "invalidCallsign": "Indicativo Inválido, Tente Novamente!",
+    "sourceCode": "Código Fonte no",
+    "github": "Github"
+  },
+  "home": {
+    "documentation": "Documentação",
+    "documentationDescription": "Explore guias abrangentes e recursos sobre APRS",
+    "aprsGuide": "Guia APRS",
+    "aprsGuideDescription": "Guia completo de APRS incluindo frequências por país",
+    "technicalSpecs": "Especificações Técnicas",
+    "technicalSpecsDescription": "Especificações detalhadas de protocolo e detalhes técnicos",
+    "resources": "Recursos",
+    "resourcesDescription": "Coleção curada de ferramentas, software e materiais de aprendizagem",
+    "faq": "Perguntas Frequentes",
+    "faqDescription": "Perguntas frequentes e solução de problemas",
+    "basedOn": "Baseado em",
+    "by": "por"
+  },
+  "docs": {
+    "navigation": "Documentação",
+    "aprsGuide": "Guia APRS",
+    "technicalSpecs": "Especificações Técnicas",
+    "resources": "Recursos",
+    "faq": "Perguntas Frequentes",
+    "backToGenerator": "← Voltar ao Gerador"
+  }
+}

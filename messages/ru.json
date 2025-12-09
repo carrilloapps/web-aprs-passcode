@@ -1,0 +1,34 @@
+{
+  "app": {
+    "title": "Генератор пароля APRS",
+    "description": "Введите свой позывной радиолюбителя, чтобы получить пароль для сети APRS-IS.",
+    "callsignLabel": "Позывной",
+    "generateButton": "Получить пароль!",
+    "passcodeLabel": "Ваш пароль",
+    "invalidCallsign": "Неверный позывной, попробуйте снова!",
+    "sourceCode": "Исходный код на",
+    "github": "Github"
+  },
+  "home": {
+    "documentation": "Документация",
+    "documentationDescription": "Изучите исчерпывающие руководства и ресурсы по APRS",
+    "aprsGuide": "Руководство по APRS",
+    "aprsGuideDescription": "Полное руководство по APRS, включая частоты по странам",
+    "technicalSpecs": "Технические характеристики",
+    "technicalSpecsDescription": "Подробные спецификации протокола и технические детали",
+    "resources": "Ресурсы",
+    "resourcesDescription": "Кураторская коллекция инструментов, программного обеспечения и учебных материалов",
+    "faq": "Часто задаваемые вопросы",
+    "faqDescription": "Часто задаваемые вопросы и устранение неполадок",
+    "basedOn": "На основе",
+    "by": "автор"
+  },
+  "docs": {
+    "navigation": "Документация",
+    "aprsGuide": "Руководство по APRS",
+    "technicalSpecs": "Технические характеристики",
+    "resources": "Ресурсы",
+    "faq": "Часто задаваемые вопросы",
+    "backToGenerator": "← Вернуться к генератору"
+  }
+}

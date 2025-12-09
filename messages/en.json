@@ -1,0 +1,34 @@
+{
+  "app": {
+    "title": "APRS Passcode Generator",
+    "description": "Enter your amateur radio callsign to get a Passcode for the APRS-IS network.",
+    "callsignLabel": "Callsign",
+    "generateButton": "Get Passcode!",
+    "passcodeLabel": "Your Passcode",
+    "invalidCallsign": "Invalid Callsign, Try Again!",
+    "sourceCode": "Source Code on",
+    "github": "Github"
+  },
+  "home": {
+    "documentation": "Documentation",
+    "documentationDescription": "Explore comprehensive guides and resources about APRS",
+    "aprsGuide": "APRS Guide",
+    "aprsGuideDescription": "Complete guide to APRS including frequencies by country",
+    "technicalSpecs": "Technical Specs",
+    "technicalSpecsDescription": "Detailed protocol specifications and technical details",
+    "resources": "Resources",
+    "resourcesDescription": "Curated collection of tools, software, and learning materials",
+    "faq": "FAQ",
+    "faqDescription": "Frequently asked questions and troubleshooting",
+    "basedOn": "Based on",
+    "by": "by"
+  },
+  "docs": {
+    "navigation": "Documentation",
+    "aprsGuide": "APRS Guide",
+    "technicalSpecs": "Technical Specifications",
+    "resources": "Resources",
+    "faq": "FAQ",
+    "backToGenerator": "← Back to Generator"
+  }
+}

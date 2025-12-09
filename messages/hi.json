@@ -1,0 +1,34 @@
+{
+  "app": {
+    "title": "APRS पासकोड जेनरेटर",
+    "description": "APRS-IS नेटवर्क के लिए पासकोड प्राप्त करने के लिए अपना शौकिया रेडियो कॉलसाइन दर्ज करें।",
+    "callsignLabel": "कॉलसाइन",
+    "generateButton": "पासकोड प्राप्त करें!",
+    "passcodeLabel": "आपका पासकोड",
+    "invalidCallsign": "अमान्य कॉलसाइन, फिर से प्रयास करें!",
+    "sourceCode": "सोर्स कोड",
+    "github": "Github"
+  },
+  "home": {
+    "documentation": "प्रलेखन",
+    "documentationDescription": "APRS के बारे में व्यापक गाइड और संसाधन खोजें",
+    "aprsGuide": "APRS गाइड",
+    "aprsGuideDescription": "देश के अनुसार आवृत्तियों सहित पूर्ण APRS गाइड",
+    "technicalSpecs": "तकनीकी विनिर्देश",
+    "technicalSpecsDescription": "विस्तृत प्रोटोकॉल विनिर्देश और तकनीकी विवरण",
+    "resources": "संसाधन",
+    "resourcesDescription": "उपकरण, सॉफ़्टवेयर और सीखने की सामग्री का क्यूरेटेड संग्रह",
+    "faq": "सामान्य प्रश्न",
+    "faqDescription": "अक्सर पूछे जाने वाले प्रश्न और समस्या निवारण",
+    "basedOn": "आधारित",
+    "by": "द्वारा"
+  },
+  "docs": {
+    "navigation": "प्रलेखन",
+    "aprsGuide": "APRS गाइड",
+    "technicalSpecs": "तकनीकी विनिर्देश",
+    "resources": "संसाधन",
+    "faq": "सामान्य प्रश्न",
+    "backToGenerator": "← जेनरेटर पर वापस जाएं"
+  }
+}

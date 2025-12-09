@@ -1,0 +1,34 @@
+{
+  "app": {
+    "title": "Generador de Passcode APRS",
+    "description": "Ingresa tu indicativo de radioaficionado para obtener un código de acceso para la red APRS-IS.",
+    "callsignLabel": "Indicativo",
+    "generateButton": "¡Obtener Passcode!",
+    "passcodeLabel": "Tu Passcode",
+    "invalidCallsign": "Indicativo inválido, ¡inténtalo de nuevo!",
+    "sourceCode": "Código fuente en",
+    "github": "Github"
+  },
+  "home": {
+    "documentation": "Documentación",
+    "documentationDescription": "Explora guías completas y recursos sobre APRS",
+    "aprsGuide": "Guía APRS",
+    "aprsGuideDescription": "Guía completa de APRS incluyendo frecuencias por país",
+    "technicalSpecs": "Especificaciones Técnicas",
+    "technicalSpecsDescription": "Especificaciones del protocolo y detalles técnicos",
+    "resources": "Recursos",
+    "resourcesDescription": "Colección curada de herramientas, software y materiales de aprendizaje",
+    "faq": "Preguntas Frecuentes",
+    "faqDescription": "Preguntas frecuentes y solución de problemas",
+    "basedOn": "Basado en",
+    "by": "por"
+  },
+  "docs": {
+    "navigation": "Documentación",
+    "aprsGuide": "Guía APRS",
+    "technicalSpecs": "Especificaciones Técnicas",
+    "resources": "Recursos",
+    "faq": "Preguntas Frecuentes",
+    "backToGenerator": "← Volver al Generador"
+  }
+}

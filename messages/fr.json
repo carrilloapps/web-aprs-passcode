@@ -1,0 +1,34 @@
+{
+  "app": {
+    "title": "Générateur de code APRS",
+    "description": "Entrez votre indicatif de radioamateur pour obtenir un code d'accès pour le réseau APRS-IS.",
+    "callsignLabel": "Indicatif",
+    "generateButton": "Obtenir le code !",
+    "passcodeLabel": "Votre code",
+    "invalidCallsign": "Indicatif invalide, réessayez !",
+    "sourceCode": "Code source sur",
+    "github": "Github"
+  },
+  "home": {
+    "documentation": "Documentation",
+    "documentationDescription": "Explorez des guides complets et des ressources sur APRS",
+    "aprsGuide": "Guide APRS",
+    "aprsGuideDescription": "Guide complet d'APRS incluant les fréquences par pays",
+    "technicalSpecs": "Spécifications techniques",
+    "technicalSpecsDescription": "Spécifications de protocole détaillées et détails techniques",
+    "resources": "Ressources",
+    "resourcesDescription": "Collection organisée d'outils, de logiciels et de matériel d'apprentissage",
+    "faq": "Questions fréquentes",
+    "faqDescription": "Questions fréquemment posées et dépannage",
+    "basedOn": "Basé sur",
+    "by": "par"
+  },
+  "docs": {
+    "navigation": "Documentation",
+    "aprsGuide": "Guide APRS",
+    "technicalSpecs": "Spécifications techniques",
+    "resources": "Ressources",
+    "faq": "Questions fréquentes",
+    "backToGenerator": "← Retour au générateur"
+  }
+}

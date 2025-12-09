@@ -1,0 +1,34 @@
+{
+  "app": {
+    "title": "APRS পাসকোড জেনারেটর",
+    "description": "APRS-IS নেটওয়ার্কের জন্য একটি পাসকোড পেতে আপনার অ্যামেচার রেডিও কলসাইন লিখুন।",
+    "callsignLabel": "কলসাইন",
+    "generateButton": "পাসকোড পান!",
+    "passcodeLabel": "আপনার পাসকোড",
+    "invalidCallsign": "অবৈধ কলসাইন, আবার চেষ্টা করুন!",
+    "sourceCode": "সোর্স কোড",
+    "github": "Github"
+  },
+  "home": {
+    "documentation": "ডকুমেন্টেশন",
+    "documentationDescription": "APRS সম্পর্কে বিস্তৃত গাইড এবং সংস্থান অন্বেষণ করুন",
+    "aprsGuide": "APRS গাইড",
+    "aprsGuideDescription": "দেশ অনুসারে ফ্রিকোয়েন্সি সহ সম্পূর্ণ APRS গাইড",
+    "technicalSpecs": "প্রযুক্তিগত বৈশিষ্ট্য",
+    "technicalSpecsDescription": "বিস্তারিত প্রোটোকল স্পেসিফিকেশন এবং প্রযুক্তিগত বিবরণ",
+    "resources": "সংস্থান",
+    "resourcesDescription": "টুলস, সফটওয়্যার এবং শেখার উপকরণের কিউরেটেড সংগ্রহ",
+    "faq": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
+    "faqDescription": "প্রায়শই জিজ্ঞাসিত প্রশ্ন এবং সমস্যা সমাধান",
+    "basedOn": "ভিত্তিতে",
+    "by": "দ্বারা"
+  },
+  "docs": {
+    "navigation": "ডকুমেন্টেশন",
+    "aprsGuide": "APRS গাইড",
+    "technicalSpecs": "প্রযুক্তিগত বৈশিষ্ট্য",
+    "resources": "সংস্থান",
+    "faq": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
+    "backToGenerator": "← জেনারেটরে ফিরে যান"
+  }
+}
