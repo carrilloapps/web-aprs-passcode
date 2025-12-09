@@ -190,4 +190,4 @@ Documentation structure and content created for the APRS Passcode Generator proj
 ---
 
 **Last Updated:** December 2025  
-**Maintained By:** José Carrillo (jose.carrillo@yummysuperapp.com)
+**Maintained By:** José Carrillo (m@carrillo.app)

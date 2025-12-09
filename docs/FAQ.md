@@ -405,8 +405,7 @@ Format: Status message starting with "EMERGENCY:"
 
 ### Who maintains this application?
 
-**José Carrillo** (jose.carrillo@yummysuperapp.com)
-- Tech Lead, Financial Backoffice @ Yummy Inc.
+**José Carrillo** (m@carrillo.app)
 - Amateur radio enthusiast
 - Open source contributor
 

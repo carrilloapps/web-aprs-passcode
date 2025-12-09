@@ -206,8 +206,8 @@ You are free to use, modify, and distribute this software for any purpose, inclu
 
 ## 👨‍💻 Author
 
-**José Carrillo** (jose.carrillo@yummysuperapp.com)  
-Tech Lead - Financial Backoffice Team @ Yummy Inc.
+**José Carrillo** (m@carrillo.app)  
+HJ4JPC - Ham Radio Amateur
 
 ## 🔗 Links
 

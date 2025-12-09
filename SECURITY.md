@@ -15,7 +15,7 @@ We release patches for security vulnerabilities for the following versions:
 
 Instead, please report them via email to:
 
-**jose.carrillo@yummysuperapp.com**
+**m@carrillo.app**
 
 ### What to Include
 
@@ -133,7 +133,7 @@ Subscribe to releases on GitHub to stay informed.
 ## Contact
 
 For security concerns:
-- **Email:** jose.carrillo@yummysuperapp.com
+- **Email:** m@carrillo.app
 - **GitHub:** [@carrilloapps](https://github.com/carrilloapps)
 
 For general questions:

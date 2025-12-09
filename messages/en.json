@@ -30,5 +30,9 @@
     "resources": "Resources",
     "faq": "FAQ",
     "backToGenerator": "← Back to Generator"
+  },
+  "metadata": {
+    "title": "APRS Passcode Generator",
+    "description": "Generate passcodes for the APRS-IS network with your amateur radio callsign. Free online tool for ham radio operators."
   }
 }

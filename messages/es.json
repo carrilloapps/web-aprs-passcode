@@ -30,5 +30,9 @@
     "resources": "Recursos",
     "faq": "Preguntas Frecuentes",
     "backToGenerator": "← Volver al Generador"
+  },
+  "metadata": {
+    "title": "Generador de Passcode APRS",
+    "description": "Genera códigos de acceso para la red APRS-IS con tu indicativo de radioaficionado. Herramienta online gratuita."
   }
 }

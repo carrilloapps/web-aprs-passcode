@@ -302,7 +302,7 @@ When contributing to UI:
 
 Instead:
 
-1. Email: jose.carrillo@yummysuperapp.com
+1. Email: m@carrillo.app
 2. Include:
    - Description of vulnerability
    - Steps to reproduce

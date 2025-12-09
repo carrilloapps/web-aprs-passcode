@@ -30,5 +30,9 @@
     "resources": "资源",
     "faq": "常见问题",
     "backToGenerator": "← 返回生成器"
+  },
+  "metadata": {
+    "title": "APRS 密码生成器",
+    "description": "使用您的业余无线电呼号生成 APRS-IS 网络的密码。免费在线工具。"
   }
 }
