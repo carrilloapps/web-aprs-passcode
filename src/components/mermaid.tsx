@@ -6,18 +6,31 @@ interface MermaidProps {
   code: string;
 }
 
-function loadMermaidFromCdn(): Promise<any> {
-  return new Promise((resolve, reject) => {
-    if (typeof window === 'undefined') return reject(new Error('No window'));
-    const w: any = window;
-    if (w.mermaid) return resolve(w.mermaid);
-    const script = document.createElement('script');
-    script.src = 'https://unpkg.com/mermaid@10/dist/mermaid.min.js';
-    script.async = true;
-    script.onload = () => resolve(w.mermaid);
-    script.onerror = (e) => reject(e);
-    document.head.appendChild(script);
-  });
+async function loadMermaid(): Promise<any> {
+  if (typeof window === 'undefined') throw new Error('No window');
+
+  const w: any = window;
+  if (w.mermaid) return w.mermaid;
+
+  // Try dynamic import first (if installed locally)
+  try {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    const mod = await import('mermaid');
+    const mer = mod.default || mod;
+    w.mermaid = mer;
+    return mer;
+  } catch (err) {
+    // Fallback to CDN
+    return new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.src = 'https://unpkg.com/mermaid@10/dist/mermaid.min.js';
+      script.async = true;
+      script.onload = () => resolve(w.mermaid);
+      script.onerror = (e) => reject(e);
+      document.head.appendChild(script);
+    });
+  }
 }
 
 export default function Mermaid({ code }: MermaidProps) {
@@ -25,7 +38,7 @@ export default function Mermaid({ code }: MermaidProps) {
 
   useEffect(() => {
     let mounted = true;
-    loadMermaidFromCdn()
+    loadMermaid()
       .then((mermaid) => {
         if (!mounted || !ref.current) return;
         try {

@@ -17,7 +17,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
   const components = useMemo(() => ({
     a: ({ href, children }: any) => {
       if (!href) return <a>{children}</a>;
-      // In-page anchor: smooth scroll
+      // In-page anchor: smooth scroll with offset and slower duration
       if (href.startsWith('#')) {
         return (
           <a
@@ -26,7 +26,26 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
               e.preventDefault();
               const id = href.replace('#', '');
               const el = document.getElementById(id);
-              if (el) el.scrollIntoView({ behavior: 'smooth' });
+              if (!el) return;
+
+              const headerOffset = 96; // px, adjust if header height differs
+              const elementPosition = el.getBoundingClientRect().top + window.pageYOffset;
+              const targetPosition = elementPosition - headerOffset;
+              const startPosition = window.pageYOffset;
+              const distance = targetPosition - startPosition;
+              const duration = 800; // ms, slower animation
+              let start: number | null = null;
+
+              function step(timestamp: number) {
+                if (!start) start = timestamp;
+                const elapsed = timestamp - start;
+                const progress = Math.min(elapsed / duration, 1);
+                const ease = 1 - Math.pow(1 - progress, 3); // easeOutCubic-like
+                window.scrollTo(0, startPosition + distance * ease);
+                if (elapsed < duration) window.requestAnimationFrame(step);
+              }
+
+              window.requestAnimationFrame(step);
             }}
           >
             {children}
