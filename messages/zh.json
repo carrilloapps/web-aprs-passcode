@@ -7,7 +7,13 @@
     "passcodeLabel": "您的密码",
     "invalidCallsign": "无效的呼号，请重试！",
     "sourceCode": "源代码在",
-    "github": "Github"
+    "github": "Github",
+    "required": "Required",
+    "generating": "Generating...",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copiedToClipboard": "Copied",
+    "viewOnGithub": "View on GitHub"
   },
   "home": {
     "documentation": "文档",

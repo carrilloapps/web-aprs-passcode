@@ -7,7 +7,13 @@
     "passcodeLabel": "আপনার পাসকোড",
     "invalidCallsign": "অবৈধ কলসাইন, আবার চেষ্টা করুন!",
     "sourceCode": "সোর্স কোড",
-    "github": "Github"
+    "github": "Github",
+    "required": "Required",
+    "generating": "Generating...",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copiedToClipboard": "Copied",
+    "viewOnGithub": "View on GitHub"
   },
   "home": {
     "documentation": "ডকুমেন্টেশন",

@@ -7,7 +7,13 @@
     "passcodeLabel": "आपका पासकोड",
     "invalidCallsign": "अमान्य कॉलसाइन, फिर से प्रयास करें!",
     "sourceCode": "सोर्स कोड",
-    "github": "Github"
+    "github": "Github",
+    "required": "Required",
+    "generating": "Generating...",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copiedToClipboard": "Copied",
+    "viewOnGithub": "View on GitHub"
   },
   "home": {
     "documentation": "प्रलेखन",

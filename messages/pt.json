@@ -7,7 +7,13 @@
     "passcodeLabel": "Sua Senha",
     "invalidCallsign": "Indicativo Inválido, Tente Novamente!",
     "sourceCode": "Código Fonte no",
-    "github": "Github"
+    "github": "Github",
+    "required": "Required",
+    "generating": "Generating...",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copiedToClipboard": "Copied",
+    "viewOnGithub": "View on GitHub"
   },
   "home": {
     "documentation": "Documentação",

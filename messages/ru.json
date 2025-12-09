@@ -7,7 +7,13 @@
     "passcodeLabel": "Ваш пароль",
     "invalidCallsign": "Неверный позывной, попробуйте снова!",
     "sourceCode": "Исходный код на",
-    "github": "Github"
+    "github": "Github",
+    "required": "Required",
+    "generating": "Generating...",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copiedToClipboard": "Copied",
+    "viewOnGithub": "View on GitHub"
   },
   "home": {
     "documentation": "Документация",

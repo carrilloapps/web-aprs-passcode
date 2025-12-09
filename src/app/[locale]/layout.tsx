@@ -130,9 +130,43 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages();
+  const t = await getTranslations({ locale, namespace: 'metadata' });
+
+  // JSON-LD structured data
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: t('title'),
+    description: t('description'),
+    url: 'https://aprs-passcode.carrillo.app',
+    applicationCategory: 'UtilityApplication',
+    operatingSystem: 'All',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+    },
+    author: {
+      '@type': 'Person',
+      name: 'José Carrillo',
+      url: 'https://carrillo.app',
+    },
+    inLanguage: ['en', 'es', 'zh', 'hi', 'ar', 'pt', 'bn', 'ru', 'ja', 'fr'],
+    about: {
+      '@type': 'Thing',
+      name: 'APRS',
+      description: 'Automatic Packet Reporting System',
+    },
+  };
 
   return (
     <html lang={locale} suppressHydrationWarning>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

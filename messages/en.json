@@ -7,7 +7,13 @@
     "passcodeLabel": "Your Passcode",
     "invalidCallsign": "Invalid Callsign, Try Again!",
     "sourceCode": "Source Code on",
-    "github": "Github"
+    "github": "Github",
+    "required": "Required",
+    "generating": "Generating...",
+    "copy": "Copy to clipboard",
+    "copied": "Copied!",
+    "copiedToClipboard": "Copied to clipboard",
+    "viewOnGithub": "View source code on GitHub"
   },
   "home": {
     "documentation": "Documentation",

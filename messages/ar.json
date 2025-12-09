@@ -7,7 +7,13 @@
     "passcodeLabel": "رمز المرور الخاص بك",
     "invalidCallsign": "إشارة نداء غير صالحة، حاول مرة أخرى!",
     "sourceCode": "الكود المصدري على",
-    "github": "Github"
+    "github": "Github",
+    "required": "Required",
+    "generating": "Generating...",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copiedToClipboard": "Copied",
+    "viewOnGithub": "View on GitHub"
   },
   "home": {
     "documentation": "التوثيق",
