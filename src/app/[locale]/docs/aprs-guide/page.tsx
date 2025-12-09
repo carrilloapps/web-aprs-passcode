@@ -1,7 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import MarkdownRenderer from '@/components/markdown-renderer';
 
 interface AprsGuidePageProps {
   params: Promise<{
@@ -12,13 +11,12 @@ interface AprsGuidePageProps {
 export default async function AprsGuidePage({ params }: AprsGuidePageProps) {
   const { locale } = await params;
 
-  // Read the markdown file
   const filePath = path.join(process.cwd(), 'docs', 'APRS-GUIDE.md');
   const content = await fs.readFile(filePath, 'utf-8');
 
   return (
-    <article className="markdown-content">
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+    <article>
+      <MarkdownRenderer content={content} />
     </article>
   );
 }

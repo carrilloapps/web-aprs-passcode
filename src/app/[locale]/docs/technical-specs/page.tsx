@@ -1,7 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import MarkdownRenderer from '@/components/markdown-renderer';
 
 interface TechnicalSpecsPageProps {
   params: Promise<{
@@ -9,20 +8,18 @@ interface TechnicalSpecsPageProps {
   }>;
 }
 
-export default async function TechnicalSpecsPage({
-  params,
-}: TechnicalSpecsPageProps) {
+export default async function TechnicalSpecsPage({ params }: TechnicalSpecsPageProps) {
   const { locale } = await params;
 
   // Read the markdown file
   const filePath = path.join(process.cwd(), 'docs', 'TECHNICAL-SPECS.md');
   const content = await fs.readFile(filePath, 'utf-8');
 
-  return (
-    <article className="markdown-content">
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
-    </article>
-  );
+    return (
+      <article>
+        <MarkdownRenderer content={content} />
+      </article>
+    );
 }
 
 export async function generateMetadata() {

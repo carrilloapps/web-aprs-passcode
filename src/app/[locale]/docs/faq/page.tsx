@@ -1,7 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+  import MarkdownRenderer from '@/components/markdown-renderer';
 
 interface FaqPageProps {
   params: Promise<{
@@ -17,8 +16,8 @@ export default async function FaqPage({ params }: FaqPageProps) {
   const content = await fs.readFile(filePath, 'utf-8');
 
   return (
-    <article className="markdown-content">
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+      <article>
+        <MarkdownRenderer content={content} />
     </article>
   );
 }
@@ -27,6 +26,6 @@ export async function generateMetadata() {
   return {
     title: 'FAQ - APRS Passcode Generator',
     description:
-      'Frequently asked questions about APRS, passcode generation, setup, troubleshooting, and emergency use.',
+        'Frequently asked questions and troubleshooting for APRS Passcode Generator.',
   };
 }
