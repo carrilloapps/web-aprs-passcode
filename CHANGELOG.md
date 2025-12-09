@@ -5,6 +5,36 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.0] - 2025-12-09
+
+### Added
+
+- **Complete i18n Implementation** - Full internationalization across the entire project
+  - Translated all UI elements including documentation pages
+  - Added `home` and `docs` translation namespaces to all 10 languages
+  - Documentation section with translated titles and descriptions
+  - Translated navigation menu in documentation layout
+  - Footer with attribution in all languages
+
+### Changed
+
+- **Documentation Layout** - Now uses `useTranslations` hook for dynamic content
+  - Title changes based on selected language
+  - Navigation labels translate automatically
+  - "Back to Generator" button translated
+- **Home Page** - Fully internationalized with `DocumentationSection` component
+  - Documentation cards with icons (BookOpen, FileText, Link2, HelpCircle)
+  - Translated headings and descriptions
+  - Attribution footer in all languages
+
+### Technical Details
+
+- All 10 languages now support:
+  - Main generator interface (existing)
+  - Documentation navigation
+  - Documentation page titles and descriptions
+  - Footer attribution text
+
 ## [2.1.0] - 2025-12-09
 
 ### Added

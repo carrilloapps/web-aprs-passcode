@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { AprsPasscodeGenerator } from '@/components/aprs-passcode-generator';
 import { LanguageSwitcher } from '@/components/language-switcher';
 import { DocumentationSection } from '@/components/documentation-section';
@@ -10,7 +10,7 @@ export default async function Home({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = useTranslations('home');
+  const t = await getTranslations('home');
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-8 p-4 md:p-24">

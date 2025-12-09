@@ -19,7 +19,7 @@ const config: Config = {
     'src/**/*.{ts,tsx}',
     '!src/**/*.d.ts',
     '!src/app/**',
-    '!src/middleware.ts',
+    '!src/proxy.ts',
     '!src/components/ui/**',
     '!src/i18n/**',
   ],

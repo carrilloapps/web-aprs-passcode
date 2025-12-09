@@ -1,6 +1,6 @@
 {
   "name": "web-aprs-passcode",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Modern web application for generating APRS-IS passcodes with multi-language support. Based on Web-Aprs-Passcode by Simon Weber (DO3SWW).",
   "author": "José Carrillo <m@carrillo.app>",
   "contributors": [
