@@ -50,11 +50,11 @@ export function AprsPasscodeGenerator() {
   return (
     <Card className="w-full max-w-2xl shadow-lg border-2 transition-shadow hover:shadow-xl">
       <CardHeader className="space-y-2 pb-4">
-        <div className="flex items-center gap-3">
+        <div className="flex items-start gap-3">
           <div className="p-3 rounded-full bg-primary/10 animate-pulse-slow">
-            <Radio className="w-6 h-6 text-primary" aria-hidden="true" />
+            <Radio className="w-12 h-12 text-primary" aria-hidden="true" />
           </div>
-          <div>
+          <div className="flex-1 text-left">
             <CardTitle className="text-3xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
               {t('title')}
             </CardTitle>
@@ -67,8 +67,8 @@ export function AprsPasscodeGenerator() {
       <CardContent className="space-y-6">
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="space-y-3">
-            <Label 
-              htmlFor="callsign" 
+            <Label
+              htmlFor="callsign"
               className="text-base font-semibold flex items-center gap-2"
             >
               {t('callsignLabel')}
@@ -169,8 +169,8 @@ export function AprsPasscodeGenerator() {
             className="flex items-center justify-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group"
             aria-label={t('viewOnGithub')}
           >
-            <Github className="w-4 h-4 transition-transform group-hover:scale-110" aria-hidden="true" />
             <span>{t('sourceCode')}</span>
+            <Github className="w-4 h-4 transition-transform group-hover:scale-110" aria-hidden="true" />
           </a>
         </div>
       </CardContent>
