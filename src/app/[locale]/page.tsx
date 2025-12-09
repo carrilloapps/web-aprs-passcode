@@ -43,7 +43,7 @@ export default async function Home({
         <div className="flex-1 flex flex-col items-center justify-center gap-12 p-4 md:p-8 lg:p-12">
           <div className="w-full max-w-7xl mx-auto space-y-12">
             {/* Hero section */}
-            <section className="text-center space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-1000">
+            <section className="flex justify-center text-center space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-1000">
               <AprsPasscodeGenerator />
             </section>
 
@@ -71,7 +71,7 @@ export default async function Home({
                 {t('by')} Simon Weber (DO3SWW)
               </p>
               <p className="text-xs text-muted-foreground">
-                © {new Date().getFullYear()} APRS Passcode Generator. MIT License.
+                José Carrillo &copy; {new Date().getFullYear()} APRS Passcode Generator. MIT License.
               </p>
             </div>
           </div>
