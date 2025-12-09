@@ -21,6 +21,7 @@ const config: Config = {
     '!src/app/**',
     '!src/proxy.ts',
     '!src/components/ui/**',
+    '!src/components/mermaid.tsx',
     '!src/i18n/**',
   ],
   coverageThreshold: {

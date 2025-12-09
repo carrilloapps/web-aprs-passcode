@@ -41,11 +41,15 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
                 const elapsed = timestamp - start;
                 const progress = Math.min(elapsed / duration, 1);
                 const ease = 1 - Math.pow(1 - progress, 3); // easeOutCubic-like
-                window.scrollTo(0, startPosition + distance * ease);
-                if (elapsed < duration) window.requestAnimationFrame(step);
+                if (typeof window !== 'undefined') {
+                  window.scrollTo(0, startPosition + distance * ease);
+                  if (elapsed < duration) window.requestAnimationFrame(step);
+                }
               }
 
-              window.requestAnimationFrame(step);
+              if (typeof window !== 'undefined') {
+                window.requestAnimationFrame(step);
+              }
             }}
           >
             {children}
