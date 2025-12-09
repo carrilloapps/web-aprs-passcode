@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { AprsPasscodeGenerator } from '@/components/aprs-passcode-generator';
 import { LanguageSwitcher } from '@/components/language-switcher';
+import { ThemeToggle } from '@/components/theme-toggle';
 import { DocumentationSection } from '@/components/documentation-section';
 import Link from 'next/link';
 
@@ -14,7 +15,8 @@ export default async function Home({
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-8 p-4 md:p-24">
-      <div className="absolute right-4 top-4">
+      <div className="absolute right-4 top-4 flex items-center gap-2">
+        <ThemeToggle />
         <LanguageSwitcher locale={locale} />
       </div>
       

@@ -27,20 +27,25 @@ The application supports the 10 most spoken languages in the world:
 - 🚀 Built with Next.js 16 App Router
 - 🎨 Modern UI with shadcn-ui components
 - 🌐 Internationalization (i18n) with next-intl
+- 🌓 Dark/Light theme with system preference detection
+- 🔍 SEO optimized with comprehensive metadata
 - 📱 Fully responsive design
 - ♿ Accessible components
-- 🧪 100% test coverage for core functionality
+- 📚 Comprehensive documentation (APRS Guide, Technical Specs, Resources, FAQ)
+- 🧪 98.91% test coverage
 - ⚡ Type-safe with TypeScript
 
 ## 🛠️ Tech Stack
 
-- **Framework:** Next.js 16
+- **Framework:** Next.js 16 (App Router + Turbopack)
 - **UI Library:** shadcn-ui (Radix UI primitives)
-- **Styling:** Tailwind CSS
-- **i18n:** next-intl
-- **Language:** TypeScript
-- **Testing:** Jest + React Testing Library
+- **Styling:** Tailwind CSS v4
+- **i18n:** next-intl 4.5.8
+- **Theme:** next-themes
+- **Language:** TypeScript 5 (strict mode)
+- **Testing:** Jest 30 + React Testing Library 16
 - **Linting:** ESLint
+- **Markdown:** react-markdown + remark-gfm
 
 ## 📦 Installation
 

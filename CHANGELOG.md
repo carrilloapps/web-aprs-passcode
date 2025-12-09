@@ -5,6 +5,57 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.3.0] - 2025-01-08
+
+### Added
+
+- **Dark/Light Theme Toggle** - User preference with system default detection
+  - Implemented `next-themes` for theme management
+  - Created `ThemeToggle` component with Sun/Moon icons
+  - Added `ThemeProvider` wrapper component
+  - Theme persists across navigation
+  - System preference detection on initial load
+  - Theme toggle accessible in main page and documentation layout
+
+- **Comprehensive SEO Implementation** - Optimized metadata for search engines
+  - Dynamic metadata generation per locale using `generateMetadata()`
+  - OpenGraph tags for social media sharing
+  - Twitter Card metadata
+  - Alternate language links for all 10 locales
+  - Robots configuration for search engine crawling
+  - Comprehensive keywords for better discoverability
+  - Metadata translations in all languages (title and description)
+
+### Changed
+
+- **Layout Structure** - Enhanced main layout with SEO and theme support
+  - Added `generateMetadata()` function for dynamic SEO
+  - Integrated `ThemeProvider` with system default preference
+  - Improved metadata structure for better SEO
+- **Page Headers** - Updated header sections across all pages
+  - Theme toggle positioned alongside language switcher
+  - Consistent header design in main page and documentation
+  - Better visual hierarchy with grouped controls
+
+### Technical Details
+
+- **Dependencies Added**:
+  - `next-themes@latest` - Theme management system
+- **New Components**:
+  - `/src/components/theme-provider.tsx` - Theme context provider
+  - `/src/components/theme-toggle.tsx` - UI toggle button
+- **SEO Features**:
+  - Title template: `%s | APRS Passcode Generator`
+  - OpenGraph images and descriptions
+  - Twitter card support
+  - Language alternates for `/`, `/docs/aprs-guide`, `/docs/technical-specs`, `/docs/resources`, `/docs/faq`
+  - Robots: `index, follow` for public indexing
+- **Theme Configuration**:
+  - Uses class-based theme switching (`.dark` class)
+  - Default theme: `system` (auto-detects user preference)
+  - Smooth transition between themes
+  - SSR-safe implementation with mounted state
+
 ## [2.2.0] - 2025-12-09
 
 ### Added

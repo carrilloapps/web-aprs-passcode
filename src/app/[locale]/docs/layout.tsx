@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { LanguageSwitcher } from '@/components/language-switcher';
+import { ThemeToggle } from '@/components/theme-toggle';
 import { cn } from '@/lib/utils';
 
 interface DocsLayoutProps {
@@ -33,7 +34,10 @@ export default function DocsLayout({ children, params }: DocsLayoutProps) {
           <Link href={`/${locale}`} className="text-xl font-bold hover:underline">
             {tApp('title')}
           </Link>
-          <LanguageSwitcher locale={locale} />
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <LanguageSwitcher locale={locale} />
+          </div>
         </div>
       </header>
 
